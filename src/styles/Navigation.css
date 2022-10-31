@@ -1,0 +1,38 @@
+:root {
+    --light: white;
+    --up: red;
+    --dark: black;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  li {
+    display: inline;
+    cursor: pointer;
+    margin-right: 2%;
+  }
+
+  li a {
+    text-decoration: none;
+  }
+
+  li a:hover {
+    font-weight: bold;
+  }
+
+  .activePage {        
+    color: var(--up);
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  .noActivePage {
+    color: var(--dark); 
+    font-size: 1rem;
+  }
+
+  .nav-container {
+    text-align: center;
+  }

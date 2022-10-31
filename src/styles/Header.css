@@ -1,0 +1,11 @@
+:root {
+    --light: white;
+    --up: red;
+    --dark: black;
+  }
+
+  .title-container { 
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2%;
+  }

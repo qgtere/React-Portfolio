@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light: white;
+  --up: red;
+  --dark: black;
+}
+
+html, body {
+  background-color: var(--light);
+  font-family: 'Special Elite', cursive;
+  color: var(--dark);
+  padding: 2%; 
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; */
+  align-items: center;
+}

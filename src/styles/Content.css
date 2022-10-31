@@ -1,0 +1,47 @@
+:root {
+    --light: white;
+    --up: red;
+    --dark: black;
+  }
+  /* :root {
+    --light: black;
+    --up: red;
+    --dark: white;
+  } */
+
+.content-container {
+    height: 500px;
+    margin: 2%;    
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid var(--dark); */
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.picture {
+    width: 20%;
+    height: 20%;
+    border-radius: 0 15px 15px 0;
+}
+
+.line {
+    height: 350px;
+}
+
+.picture-container {
+    display: contents;
+
+}
+
+.about-text {
+    padding-left: 15px;
+    width: 40%;
+    text-align: justify;
+    line-height: 1.5rem;
+}
