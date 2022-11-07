@@ -56,7 +56,7 @@ function AboutMe() {
             <div className='about-text'>
                 <p style={styles.centered}><span style={styles.size}>Hello I'm <span style={styles.name}>Tere Quintero</span></span></p>
                 <p style={styles.description}>a computer systems engineer passionate about
-                    web and application development to make our day-to-day life easier.</p>
+                    application development to make our day-to-day life easier.</p>
                 <p style={styles.phrase}>Always ready to collaborate and code.</p>
             </div>
             </motion.h1>
