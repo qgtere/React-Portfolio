@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.0dd5bd32.css",
+    "main.js": "/React-Portfolio/static/js/main.d92e5695.js",
+    "static/media/devPhoto.jpeg": "/React-Portfolio/static/media/devPhoto.3678350c5d0e507095d2.jpeg",
+    "static/media/Resume.pdf": "/React-Portfolio/static/media/Resume.7961ac7ddda09f87b817.pdf",
+    "static/media/cooked.jpg": "/React-Portfolio/static/media/cooked.9e9ae3ef846caf5c8d27.jpg",
+    "static/media/resume.jpg": "/React-Portfolio/static/media/resume.083af4d73605f2b3b6e6.jpg",
+    "static/media/weather.jpg": "/React-Portfolio/static/media/weather.28ee02d2c526ae80f988.jpg",
+    "static/media/reviewFlix.jpg": "/React-Portfolio/static/media/reviewFlix.7c52482e8ad1dfff1dcf.jpg",
+    "static/media/timedQuiz.jpg": "/React-Portfolio/static/media/timedQuiz.0f3b2ebb30ecbfe3f5a0.jpg",
+    "static/media/scheduler.jpg": "/React-Portfolio/static/media/scheduler.dddf477564b338c33b07.jpg",
+    "static/media/noteTaker.jpg": "/React-Portfolio/static/media/noteTaker.0d1a7d802fb13915dcd4.jpg",
+    "index.html": "/React-Portfolio/index.html",
+    "main.0dd5bd32.css.map": "/React-Portfolio/static/css/main.0dd5bd32.css.map",
+    "main.d92e5695.js.map": "/React-Portfolio/static/js/main.d92e5695.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0dd5bd32.css",
+    "static/js/main.d92e5695.js"
+  ]
+}
