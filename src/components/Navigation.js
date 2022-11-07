@@ -4,8 +4,8 @@ import '../styles/Navigation.css';
 function Navigation({ currentPage, handlePageChange }) {
     return (
         <div className='nav-container'>
-            <ul>
-                <li>
+            <ul className='ulNavigate' data-animation="bonus">
+                <li className='liNavigate'>
                     <a 
                         href='#AboutMe'
                         onClick={() => handlePageChange('AboutMe')}
@@ -14,7 +14,7 @@ function Navigation({ currentPage, handlePageChange }) {
                         About Me
                     </a>
                 </li>
-                <li>
+                <li className='liNavigate'>
                     <a 
                         href='#Portfolio'
                         onClick={() => handlePageChange('Portfolio')}
@@ -23,7 +23,7 @@ function Navigation({ currentPage, handlePageChange }) {
                         Portfolio
                     </a>
                 </li>
-                <li>
+                <li className='liNavigate'>
                     <a 
                         href='#Contact'
                         onClick={() => handlePageChange('Contact')}
@@ -32,7 +32,7 @@ function Navigation({ currentPage, handlePageChange }) {
                         Contact
                     </a>
                 </li>
-                <li>
+                <li className='liNavigate'>
                     <a 
                         href='#Resume'
                         onClick={() => handlePageChange('Resume')}
