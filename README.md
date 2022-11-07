@@ -22,7 +22,7 @@ npm start
 ```
 
 ## Deployed App
-[Link to the app](https://)
+[Link to the app](https://qgtere.github.io/React-Portfolio/)
 
 ## Techs
 * HTML
