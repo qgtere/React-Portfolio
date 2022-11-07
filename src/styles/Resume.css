@@ -162,7 +162,7 @@
 .graphql { width: 65%; background-color: rgb( 255 203 119 / 1); }
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 768px) {
     .resumeBackground {
         width: 100%;
         padding: 0.3rem;

@@ -110,13 +110,13 @@
     }
   }
 
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: 768px) {
     .ulContainer {
         width: 100%;
     }
   }
 
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 425px) {
     .single-project {
         padding: 25px 0 25px 0;
     }

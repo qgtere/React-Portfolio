@@ -1,7 +1,5 @@
 import React from 'react';
 import '../styles/Navigation.css';
-import {AiOutlineMenu}  from 'react-icons/ai';
-import {IoCloseSharp}  from 'react-icons/ai';
 
 function Navigation({ currentPage, handlePageChange }) {
     return (
