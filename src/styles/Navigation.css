@@ -1,24 +1,27 @@
-:root {
-    --light: white;
-    --up: red;
-    --dark: black;
-  }
-
-  ul {
+  .ulNavigate {
     list-style-type: none;
+
+    display: flex;
+    justify-content: center;
   }
 
-  li {
+  .ulNavigate a {
+    position: relative;
+    display: block;
+    padding: 5px;
+  }
+
+  .liNavigate {
     display: inline;
     cursor: pointer;
     margin-right: 2%;
   }
 
-  li a {
+  .liNavigate a {
     text-decoration: none;
   }
 
-  li a:hover {
+  .liNavigate a:hover {
     font-weight: bold;
   }
 
@@ -35,4 +38,35 @@
 
   .nav-container {
     text-align: center;
+  }
+
+/*************************************************************/
+
+  .ulNavigate a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, var(--dark), var(--up));
+    z-index: 1;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .ulNavigate a:hover::before {
+    transform: scaleX(1);
+  }
+
+  .ulNavigate[data-animation="bonus"] a::before {
+    transform-origin: right;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .ulNavigate[data-animation="bonus"] a:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+    transition-timing-function: cubic-bezier(0.2, 1, 0.82, 0.94);
   }

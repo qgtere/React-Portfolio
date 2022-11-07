@@ -1,3 +1,10 @@
+:root {
+    --light: #FEF9EF;
+    --up: #FFCB77;
+    --shadow: #FFF2DE;
+    --dark: #227C9D;
+}
+
 .footer-container {
     display: flex;
     align-items: center;
@@ -8,8 +15,9 @@
 	width: 50px;
 	height: 50px;
 	margin: 5px;
+    fill: var(--dark);
 }
 
 .footerIcons:hover {
-    fill: red;
+    fill: var(--up);
 }

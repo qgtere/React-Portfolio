@@ -1,0 +1,87 @@
+.contact-container {
+    background-color: white;
+    width: 70%;
+    padding: 1.5rem;
+    box-shadow: 0 3px 13px 1px var(--dark);
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.myInfo {
+    color: var(--dark);
+    width: 90%;
+    padding: 2rem 0;
+}
+
+details {
+    width: fit-content;
+}
+summary:hover {
+    cursor: pointer;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.divLblInput {
+    justify-content: stretch;
+}
+
+.divNameEmail {
+    width: 100%;
+}
+
+.divButton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btnSubmit {
+    color: var(--dark);
+    font-family: inherit;
+    font-size: 1.1em;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.7rem 0;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 0.2);
+}
+
+.btnSubmit:hover {
+    background-color: var(--up);
+    color: var(--light);
+    border-color: var(--light);
+}
+
+.formInput {
+    font-family: inherit;
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.7rem 0;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 0.2);    
+} 
+.formInput:hover {
+    box-shadow: 0 3px 13px 1px var(--up);
+}
+
+.formArea {
+    resize: none;
+    min-height:150px;
+}
+
+.errorMsg {
+    color: var(--up);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
