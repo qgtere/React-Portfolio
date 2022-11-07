@@ -5,11 +5,16 @@
 }
 
 .picture {
-    width: 20rem;
-    height: 25rem;
+    width: 15rem;
+    height: 20rem;
     border-radius: 15px;
     border: 3px solid var(--light);
     box-shadow: 0 3px 13px 1px var(--dark)
+}
+
+.div-center {
+    display: flex;
+    justify-content: center;
 }
 
 .about-text {
@@ -17,4 +22,3 @@
     text-align: center;
     line-height: 1.5rem;
 }
-

@@ -109,3 +109,31 @@
       display: block;      
     }
   }
+
+  @media only screen and (max-width: 650px) {
+    .ulContainer {
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .single-project {
+        padding: 25px 0 25px 0;
+    }
+    .linkIcons {
+      width: 1.8rem;
+	    height: 1.8rem;
+    }
+    .linkIcons:hover {     
+      width: 2rem;   
+      height: 2rem;
+    }
+    .depLink {
+      top: 80%;
+      left: 40%;
+    }
+    .gitLink {
+      top: 80%;
+      left: 60%;
+    }
+  }

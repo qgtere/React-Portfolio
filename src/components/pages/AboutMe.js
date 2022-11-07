@@ -45,19 +45,21 @@ function AboutMe() {
             </motion.h1>
             
             <motion.h1
-                animate={{ x: [ 50, 150, 50 ], opacity: 1, scale: 1 }}
+                animate={{ x: [ 0, 150, 0 ], opacity: 1, scale: 1 }}
                 transition={{
                     duration: 3,
                     delay: 0.3,
                     ease: [0.4, 0.6, 1, 1.3],
                 }}
                 initial={{ opacity: 0, scale: 0.5 }}
-            >   
+            > 
+            <div className='div-center'>
             <div className='about-text'>
                 <p style={styles.centered}><span style={styles.size}>Hello I'm <span style={styles.name}>Tere Quintero</span></span></p>
                 <p style={styles.description}>a computer systems engineer passionate about
                     application development to make our day-to-day life easier.</p>
                 <p style={styles.phrase}>Always ready to collaborate and code.</p>
+            </div>
             </div>
             </motion.h1>
             

@@ -131,7 +131,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0 1rem;
-    text-align: right;
+    text-align: left;
     padding: 0.3rem 1rem;
     color: var(--dark);
     margin: 1rem;
@@ -161,3 +161,20 @@
 .rest { width: 70%; background-color: rgb( 255 203 119 / 0.4); }
 .graphql { width: 65%; background-color: rgb( 255 203 119 / 1); }
 
+
+@media only screen and (max-width: 850px) {
+    .resumeBackground {
+        width: 100%;
+        padding: 0.3rem;
+    }
+    .profContainer {
+        margin: 0;
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+    .divProficiencies {
+        margin: 0;
+        box-shadow: none;
+    }
+  }
