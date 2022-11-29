@@ -1,16 +1,23 @@
 import React from 'react';
 import Project from '../Project';
 import '../../styles/Project.css';
+import mandalaImg from '../../images/mandala.jpg';
 import cookedImg from '../../images/cooked.jpg';
 import reviewflixImg from '../../images/reviewFlix.jpg';
 import weatherImg from '../../images/weather.jpg';
 import noteTakerImg from '../../images/noteTaker.jpg';
-import timedQuiz from '../../images/timedQuiz.jpg';
 import workSchedulerImg from '../../images/scheduler.jpg';
 
 function Portfolio() {
 
     const projects = [
+        {
+            name: 'Mandala',
+            description: 'Social Platform to connect and share your passion for cooking.',
+            image: mandalaImg,
+            urlDeployed: 'https://mandala.herokuapp.com',
+            urlGit: 'https://github.com/jcuetos97/MANDALA'
+        },
         {
             name: 'Cooked',
             description: 'Social Platform to connect and share your passion for cooking.',
@@ -31,19 +38,13 @@ function Portfolio() {
             image: weatherImg,
             urlDeployed: 'https://qgtere.github.io/Weather-Forecast/',
             urlGit: 'https://github.com/qgtere/Weather-Forecast'
-        },{
+        },
+        {
             name: 'Note Taker',
             description: 'With this app you can write and save notes, review them and delete them.',
             image: noteTakerImg,
             urlDeployed: 'https://sleepy-badlands-24266.herokuapp.com/',
             urlGit: 'https://github.com/qgtere/Note-Taker'
-        },
-        {
-            name: 'Timed Quiz',
-            description: 'Timed coding quiz with multiple-choice questions.',
-            image: timedQuiz,
-            urlDeployed: 'https://qgtere.github.io/Challenge4-TimedQuiz/',
-            urlGit: 'https://github.com/qgtere/Challenge4-TimedQuiz'
         },
         {
             name: 'Work Day Scheduler',

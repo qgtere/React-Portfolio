@@ -63,6 +63,7 @@
 .modalDownload{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .btnDownload {
